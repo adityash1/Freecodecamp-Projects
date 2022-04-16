@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Product Landing Page</title>
+  </head>
+  <body id="container" class="container-fluid">
+        <header id="header" class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom sticky-top header-sticky">
+            <a id="header-img" href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="64"
+                height="64"
+                fill="currentColor"
+                class="bi bi-music-note-beamed"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"
+                />
+                <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+                <path
+                  d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"
+                /></svg>
+              <span id="name" class="fs-4">Music Studio</span>
+            </a>
+      
+            <nav id="nav-bar" class="nav nav-pills">
+                <li><a href="#home" class="nav-link nav-color" aria-current="page">Home</a></li>
+                <li><a href="#features" class="nav-link nav-color">Features</a></li>
+                <li><a href="#pricing" class="nav-link nav-color">Pricing</a></li>
+            </nav>
+        </header>
+    <div id="home">
+            <p id="soon" class="text-center">Coming Soon...</p></div>
+            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Enter your email address">
+                <input id="submit" type="submit" value="Register" class="btn">
+            </form>
+            <div class="modal-dialog modal-lg ratio ratio-16x9">
+                <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" title="YouTube video" allowfullscreen></iframe>
+            </div>
+    </div>
+    <div id="features">
+        <div class="container px-4 py-5" id="featured-3">
+            <hr class="pb-2 border-bottom"></hr>
+            <div class="col g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                        <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                        <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
+                        <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
+                      </svg>
+                </div>
+                <h2 class="font-color">80+ million songs. Ad-free.</h2>
+                <p class="font-color">With over 80 million tracks, exclusive releases, and tons of interviews and music videos, Music Studio brings you closer to the artists you listen to. Completely ad-free.</p>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                        <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+                      </svg>
+                </div>
+                <h2 class="font-color">Mixes and Radio.</h2>
+                <p class="font-color">Get a personalized curation of songs and videos with My Mix, or discover new music with Artist Radio.</p>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                      </svg>
+                </div>
+                <h2 class="font-color">Hand-picked playlists.</h2>
+                <p class="font-color">Original playlists hand-picked by our team of experts, or stream guest playlists curated by the artists you love.</p>
+              </div>
+            </div>
+            <hr class="pb-2 border-bottom"></hr>
+        </div>
+        <div id="pricing">
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center font-color">
+                <h1 class="display-4 fw-normal">Pricing</h1>
+                <p class="fs-5 font-color">Music Studio is the first global music streaming service with high fidelity sound, hi-def video quality, along with expertly curated playlists and original content — making it a trusted source for music and culture.</p>
+              </div>
+              <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm bg-color font-color border-color">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">Premium</h4>
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>320 KBPS Standard sound quality</li>
+                        <li>Ad-free and offline listening with unlimited skips</li>
+                        <li>Expertly curated playlists</li>
+                        <li>80+ million songs</li>
+                        <li>Exclusive videos, livestreams and events</li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card mb-4 rounded-3 shadow-sm bg-color font-color border-color">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">HiFi</h4>
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li >1411 KBPS Hifi sound quality</li>
+                        <li>2304-9216 KBPS Master sound quality</li>
+                        <li>Dolby Atmos</li>
+                        <li>Sony 360 Reality Audio </li>
+                        <li>All Pro Features</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+  </body>
+</html>
+l

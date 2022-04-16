@@ -1,0 +1,72 @@
+.font-color {
+    color: rgb(238, 238, 238);
+}
+
+.bg-color {
+    background-color: rgb(38, 38, 38);
+}
+
+.border-color {
+    border-color: rgb(250, 88, 106);
+}
+
+#container {
+    background-color: rgb(38, 38, 38);
+}
+
+.header-sticky {
+    background-color: rgb(38, 38, 38, 1);;
+}
+
+#header-img {
+    font-size: 25px;
+    font-style: oblique;
+    font-stretch: expanded;
+}
+
+svg {
+    color: rgb(250, 88, 106);
+}
+
+#name {
+    color: rgb(250, 88, 106)
+}
+
+#nav-bar {
+    font-size: 20px;
+    font-style: oblique;
+    background-color: rgb(38, 38, 38);
+    border-style: solid;
+    border-color: rgb(250, 88, 106);
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.nav-color {
+    color: rgb(250, 88, 106);
+}
+
+
+#form {
+    display: flex;
+    justify-content: center;
+} 
+
+#email {
+    margin-right: 10px;
+    background-color: rgb(243, 222, 225);
+}
+
+#soon {
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    color: rgb(255, 148, 161);
+}
+
+#submit {
+    background-color: rgb(250, 88, 106);
+}
+
+
+

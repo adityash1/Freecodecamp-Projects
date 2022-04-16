@@ -1,0 +1,62 @@
+#navbar {
+  position: fixed;
+  width: 300px;
+  background-color: #ddd;
+  font-size: 21px;
+  overflow-y: scroll;
+  height: auto;
+  max-height: 100vh;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 42px;
+}
+
+#nav-link {
+  color: rgb(77, 78, 83);
+  cursor: pointer;
+  display: block;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 24px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  text-decoration: rgb(77, 78, 83);
+  text-decoration-color: rgb(77, 78, 83);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+  color: rgb(77, 78, 83);
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 24px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  color: darkolivegreen;
+}
